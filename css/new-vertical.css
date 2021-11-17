@@ -1,0 +1,2779 @@
+.vertical-heading {
+	color: #1692CC;
+	text-align: center;
+}
+.vertical-banners {
+	padding: 30px 0 9px 0;
+}
+#g_vertical_img{
+	max-width: 584px;
+	width:100%
+}
+#inline-reg-section #dial_code{
+	top: 109px;
+}
+.verticalbanimg{
+	max-width: 619px !important;
+}
+/*GTM tracking css*/
+.vertical_ban_primary{
+	display: inline-block;
+    border-radius: 50px;
+    transition: .2s ease;
+    font-size: 16px;
+    padding: 11px 32px;
+    min-width: 240px;
+    margin: 28px 0;
+    font-weight: 500;
+    max-width: max-content;
+    text-align: center;
+    color: #fff;
+}
+.retail_vertical_primary{
+	box-shadow: 0 4px 8px 0 rgb(245 74 74 / 57%), 0 6px 20px 0 rgb(243 65 65 / 9%);
+    background-color: #f0493f;
+    border-color: #f0493f;
+}
+.restaurant_vertical_primary{
+	background-color: #33C15E;
+    border-color: #33C15E;
+    box-shadow: 0 4px 8px 0 rgb(52 193 93 / 40%), 0 6px 20px 0 rgb(52 193 93 / 9%)
+}
+.de_vertical_primary{
+	box-shadow: 0 4px 8px 0 rgb(249 206 36 / 65%), 0 6px 20px 0 rgb(209 212 53 / 9%);
+    background-color: #f0c107;
+    border-color: #f0c107;
+}
+.retail_vertical_primary:hover, .retail_vertical_primary:active, .retail_vertical_primary:focus {
+    background: #da3a30;
+    color: #fff;
+}
+.restaurant_vertical_primary:hover, .restaurant_vertical_primary:active, .restaurant_vertical_primary:focus {
+    background: #20a046;
+    color: #fff;
+}
+.de_vertical_primary:hover, .de_vertical_primary:active, .de_vertical_primary:focus{
+	background-color: #caa100;
+    color: #fff;
+}
+.vertical_feature_exlink{
+	max-width: 160px;
+}
+.solution_feat_links{
+	margin-bottom: 10px;
+}
+.solu_mobile_calllink{
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+/*new vertical*/
+.web-container{
+	max-width: 1200px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+.gft_vertical_banner{
+	background: url(../images/vertical-images/Background.jpg) no-repeat;
+	padding: 90px 0 60px;
+    position: relative;
+    background-size: cover;
+	overflow: hidden
+}
+.debanner_sect{
+	padding: 70px 0 60px
+} 
+.gft_vertbantext{
+	padding: 0;
+}
+.gft_verticalh1{
+	font-size: 44px;
+    font-weight: 700;
+    color: #000;
+    line-height: 1.1;
+}
+.gft_verticalh2{
+	font-size: 20px;
+    font-weight: 500;
+    color: #000;
+	line-height: 1.5;
+    margin: 0;
+}
+.verticalban_img img{
+	position: absolute;
+    right: 0;
+    top: 0px;
+    max-width: 100%;
+}
+
+.vertical_center_cta{
+	max-width: 600px;
+    margin: 40px auto 20px;
+}
+.join_them_cta{
+	position: relative;
+    margin: 20px auto 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn_second_vertical{
+	border: 1px solid #f0493f;
+    background: #fff;
+    color: #f0493f;
+    padding: 7px 30px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    display: inline-block;
+    margin: 10px auto 25px;
+}
+.vertical_applink_position{
+	margin:10px auto 40px;
+}
+.vertical_applink_position a{
+	display: inline-block;
+}
+.other-sellquick-section>div{
+	margin: 30px auto 0;
+	overflow: hidden;
+}
+.electronic-truepos-content{
+	max-width: 580px;
+}
+.whatsnow_feature_pad{
+	padding: 0 10px;
+}
+.specialized_de_features{
+	text-align: center;
+    margin: 80px 0px 80px 0px;
+}
+.specialized_de_features .col-md-4{
+	display: inline-block;
+    float: none;
+    max-width: 330px;
+    vertical-align: top;
+}
+.other-sellquick-section .solution_feat_calllink, .other-sellquick-section .vertical_applink_position{
+	margin-bottom: 10px;
+}
+.banner-videolink{
+	position: absolute;
+    top: 35%;
+    right: 60px;
+    font-size: 18px;
+    line-height: 32px;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    padding: 2px 12px;
+    display: block;
+    color: #fff;
+    background: #2d2174;
+    border-radius: 50%;
+    z-index: 5;
+}
+.banner-videolink:hover,.banner-videolink:active,.banner-videolink:focus{
+	color: #fff;
+}
+.banner-videolink:after{
+	width: 35px;
+    height: 35px;
+}
+.banner-videolink:before{
+	width: 30px;
+    height: 30px;
+	margin: auto;
+    bottom: 0;
+    right: 0;
+}
+.banner-videolink:after,.banner-videolink:before{
+	content: '';
+	position: absolute;
+  	border:solid 10px #2d2174;
+	left: 0;
+    top: 0;
+    border-radius: 50%;
+	-webkit-animation: ripple 2s 1s ease-out infinite;
+  	animation: ripple 2s 1s ease-out infinite;
+  	transition: all .5s ease-in-out;
+	background: #2d2174;
+	z-index: -1;
+}
+@-webkit-keyframes ripple {
+  0% {
+    opacity:.55;
+  }
+  100% {
+    opacity:0;
+    transform:scale(2);
+  }
+}
+@keyframes ripple {
+  0% {
+    opacity:.55;
+  }
+  100% {
+    opacity:0;
+    transform:scale(2);
+  }
+}
+.vertical-feature{
+	margin: 10px auto;
+}
+.vertical-feature:after,.vertical-feature:before{
+	content: '';
+	display: table;
+	clear: both;
+}
+.feature-app-content{
+	display: block;
+	text-align: center;
+	padding: 15px 0;
+    margin-bottom: 20px;
+}
+.res-feature-icon{
+	background: url("../images/vertical-images/restaurant-vertical-sprite.png") no-repeat;
+    height: 102px;
+    width: 160px;
+    margin: 0 auto;
+	display: block;
+}
+.bakery-whatsnow-ft{
+	background-position: 2px -5px;
+}
+.bakery-cloud-ft{
+	background-position: -148px -5px;
+}
+.bakery-service-ft{
+	background-position: -298px -5px;
+}
+.bakery-inventory-ft{
+	background-position: 10px -125px;
+}
+.bakery-sms-ft{
+	background-position: -140px -125px;
+}
+.bakery-price-ft{
+	background-position: -300px -125px;
+}
+.bakery-sales-ft{
+	background-position: 5px -245px;
+}
+.sweet-inventory-ft{
+	background-position: -295px -470px;
+}
+.sweet-sms-ft{
+	background-position: 5px -960px;
+}
+.sweet-price-ft{
+	background-position: -145px -955px;
+}
+.sweet-sales-ft{
+	background-position: -300px -595px;
+}
+.servjoy-ft{
+	background-position: -295px -720px;
+}
+.table-ft{
+	background-position: 5px -840px;
+}
+.bar-sales-ft{
+	background-position: -295px -245px;
+}
+.bar-sms-ft{
+	background-position: -150px -845px;
+}
+.kds-ft{
+	background-position: -295px -366px;
+}
+.truck-inventory-ft{
+	background-position: 0px -485px;
+}
+.truck-price-ft{
+	background-position: 10px -365px;
+}
+.truck-sales-ft{
+	background-position: -139px -365px;
+}
+.truck-sms-ft{
+	background-position: -150px -485px;
+}
+.qsr-inventory-ft{
+	background-position: 0px -720px;
+}
+.qsr-sales-ft{
+	background-position: -150px -720px;
+}
+.court-inventory-ft{
+	background-position: -150px -720px;
+}
+.ice-combo-ft{
+	background-position: 0px -595px;
+}
+.ice-party-ft{
+	background-position: -150px -595px;
+}
+.food-agg-ft{
+	background-position: -146px -245px;
+}
+.gosecure-ft{
+	background-position: -300px -838px;
+}
+
+.feature-icon{
+	background: url(../images/vertical-images/retail-vertical-sprite.png) no-repeat;
+    height: 102px;
+    width: 160px;
+    margin: 0 auto;
+	display: block;
+}
+.feature-icon-try{
+	display: none;
+	position: absolute;
+    right: 5px;
+    bottom: 0px;
+    font-size: 11px;
+    font-weight: 700;
+    color: #3978f3;
+}
+.feature-knowmorelink{
+	display: none;
+	position: absolute;
+    left: 5px;
+    bottom: 0px;
+    font-size: 11px;
+    font-weight: 700;
+    color: #3978f3;
+}
+.feature-icon.whatsnow-icon{
+	background-position: -296px -4px;
+}
+.feature-icon.sellquick-icon{
+	background-position: 4px -4px;
+}
+.feature-icon.ecom-icon{
+	background-position: -299px -246px;
+}
+.feature-icon.alert-icon{
+	background-position: 7px -239px;
+}
+.feature-icon.pda-icon{
+	background-position: 10px -1321px;
+}
+.feature-icon.inventry-icon{
+	background-position: 7px -358px;
+}
+.feature-icon.barcode-icon{
+	background-position: -298px -361px;
+}
+.feature-icon.account-icon{
+	background-position: -144px -365px;
+}
+.feature-icon.pos-cloud-icon{
+	background-position: 4px -128px;
+}
+.feature-icon.acc-inventry-icon{
+	background-position: 4px -606px;
+}
+.feature-icon.sales-process-icon{
+	background-position: -145px -729px;
+}
+.feature-icon.service-module-icon{
+	background-position: -295px -729px;
+}
+.feature-icon.sales-alert-icon{
+	background-position: -143px -605px;
+}
+.feature-icon.manage-module-icon{
+	background-position: -293px -605px;
+}
+.feature-icon.offer-icon{
+	background-position: 5px -729px;
+}
+.feature-icon.floorwise-icon{
+	background-position: 3px -846px;
+}
+.feature-icon.product-categ-icon{
+	background-position: -448px -842px;
+}
+.feature-icon.multibill-icon{
+	background-position: 5px -1078px;
+}
+.feature-icon.weightscale-icon{
+	background-position: -145px -842px;
+}
+.feature-icon.toy-baby-icon{
+	background-position: 2px -487px;
+}
+.feature-icon.bags-icon{
+	background-position:-145px -482px
+}
+.feature-icon.optical-icon{
+	background-position: -297px -465px;
+}
+.feature-icon.homedoor-icon{
+	    background-position: -743px -961px;
+}
+.feature-icon.movies-music-icon{
+	background-position: -743px -1197px;
+}
+.feature-icon.gift-icon{
+	background-position: -595px -1197px;
+}
+.feature-icon.chart-icon{
+	background-position: -594px -840px;
+}
+.feature-icon.profit-icon{
+	background-position: -742px -840px;
+}
+.feature-icon.savetime-icon{
+	background-position: 8px -962px;
+}
+.feature-icon.smartemp-icon{
+background-position: -145px -959px;
+}
+
+.feature-icon.know-customer-icon{
+	background-position: -298px -959px;
+}
+.feature-icon.know-spend-icon{
+	background-position: -450px -956px;
+}
+.feature-icon.easy-flex-icon{
+	background-position: -600px -956px;
+}
+.feature-icon.sellsmart-icon{
+	background-position: -144px -240px;
+}
+.feature-icon.mypulse-icon{
+	background-position: -749px -1080px;
+}
+.feature-icon.autoparts-icon{
+	background-position: 1px -1201px;
+}
+.feature-icon.book-station-icon{
+	background-position: -149px -1201px;
+}
+.feature-icon.spasalon-icon{
+	background-position: -445px -1211px;
+}
+.feature-icon.pets-icon{
+	background-position: -292px -1201px;
+}
+.feature-icon.weborder-icon{
+	background-position: -600px -1083px;
+}
+.feature-icon.orderver-icon{
+	background-position: -308px -1333px;
+}
+.feature-icon.easy-intuit-icon{
+	background-position: 0px -1083px;
+}
+.feature-icon.expiry-return-icon{
+	background-position: -150px -1083px;
+}
+.feature-icon.smart-purchase-icon{
+	background-position: -300px -1083px;
+}
+.feature-icon.upsell-icon{
+	background-position: -450px -1083px;
+}
+.feature-icon.digital-ready-icon{
+	background-position: -150px -130px;
+}
+.feature-icon.effient-inventry-icon{
+	background-position: -300px -120px;
+}
+.feature-icon.protect-margin-icon{
+	background-position: -150px -1320px;
+}
+.feature-icon.touch-integrate-icon{
+	background-position: -149px 0;
+	position: relative;
+}
+.feature-icon.touch-integrate-icon:after{
+	content: '';
+    width: 55px;
+    height: 25px;
+    position: absolute;
+    display: block;
+    background: url(../images/vertical-images/retail-vertical-sprite.png) no-repeat;
+    background-position: -1051px -66px;
+    top: 18px;
+    right: -3px;
+}
+.feature-app-content.content-new .feature-icon{
+	background: url(../images/vertical-images/retail-vertical-sprite-new.png) no-repeat;
+    height: 120px;
+    width: 120px;
+    margin: 0 auto;
+	display: block;
+}
+.feature-app-content.content-new h3{
+	font-size: 18px;
+	color: #202020;
+}
+.feature-app-content.content-new .feature-icon.whatsnow-icon-new{
+	background-position: -19px -14px;
+}
+.feature-app-content.content-new .feature-icon.pos-cloud-icon-new{
+	background-position: -140px -15px;
+}
+.feature-app-content.content-new .feature-icon.e-com-new{
+	background-position: -260px -5px;
+}
+.feature-app-content.content-new .feature-icon.sellquick-icon-new{
+	background-position: -380px -4px;
+}
+.feature-app-content.content-new .feature-icon.purchase-mgmt-new{
+	background-position: -500px -10px;
+}
+.feature-app-content.content-new .feature-icon.mulitiLocation-icon{
+	background-position: -620px -10px;
+}
+.feature-app-content.content-new .feature-icon.barcode-icon-new{
+	background-position: -740px -10px;
+}
+.feature-app-content.content-new .feature-icon.reports-icon-new{
+	background-position: -860px -10px;
+}
+.feature-app-content.content-new .feature-icon.godeliver-icon{
+	background-position: -500px -255px;
+}
+.feature-app-content.content-new .feature-icon.gosure-icon-new{
+	background-position: -19px -254px;
+}
+.feature-app-content.content-new .feature-icon.furnishing-icon{
+	background-position: -620px -240px;
+}
+.feature-app-content.content-new .feature-icon.mypulse-icon{
+	background-position: -500px -135px;
+}
+.feature-app-content.content-new .feature-icon.crm-icon{
+	background-position: -745px -255px;
+}
+.feature-app-content.content-new .feature-icon.alert-icon-new{
+	background-position: -19px -135px;
+}
+.feature-app-content.content-new .feature-icon.integrate-easy-icon{
+	background-position: -140px -135px;
+}
+.feature-app-content.content-new .feature-icon.gobill-icon-new{
+	background-position: -260px -135px;
+}
+.feature-app-content.content-new .feature-icon.accounts-icon-new{
+	background-position: -380px -135px;
+}
+.feature-app-content.content-new .feature-icon.bouq-mgmt-icon{
+	background-position: -620px -130px;
+}
+.feature-app-content.content-new .feature-icon.ordereasy-icon-new{
+	background-position: -740px -130px;
+}
+.feature-app-content.content-new .feature-icon.paperless-billing{
+	background-position: -860px -130px;
+}
+.feature-app-content.content-new .feature-icon.loyalty-icon{
+	background-position: -140px -245px;
+}
+.feature-app-content.content-new .feature-icon.img-based-report{
+	background-position: -260px -245px;
+}
+.feature-app-content.content-new .feature-icon.auto-accounts{
+	background-position: -380px -245px;
+}
+.feature-app-content.content-new .feature-icon.improve-feedback{
+	background-position: -19px -490px;
+}
+.feature-app-content.content-new .feature-icon.gain-cust-icon{
+	background-position: -140px -490px;
+}
+.feature-app-content.content-new .feature-icon.matrix-support{
+	background-position: -260px -490px;
+}
+.feature-app-content.content-new .feature-icon.custom-order{
+	background-position: -380px -490px;
+}
+.feature-app-content.content-new .feature-icon.digi-invoice{
+	background-position: -500px -490px;
+}
+.feature-app-content.content-new .feature-icon.assembly-kit{
+	background-position: -620px -490px;
+}
+.feature-app-content.content-new .feature-icon.simplifed-search{
+	background-position: -19px -370px;
+}
+.feature-app-content.content-new .feature-icon.attractive-offers{
+	background-position: -135px -365px;
+}
+.feature-app-content.content-new .feature-icon.category-mgmt{
+	background-position: -255px -365px;
+}
+.feature-app-content.content-new .feature-icon.salesman-commision{
+	background-position: -380px -365px;
+}
+.feature-app-content.content-new .feature-icon.warranty-mgmt{
+	background-position: -500px -365px;
+}
+.feature-app-content.content-new .feature-icon.actionable-reports{
+	background-position: -620px -365px;
+}
+.feature-app-content.content-new .feature-icon.kit-items-icon{
+	background-position: -740px -365px;
+}
+.feature-app-content.content-new .feature-icon.pricing-feat-icon{
+	background-position: -860px -365px;
+}
+.feature-app-content.content-new .feature-icon.liquidate-stocks{
+	background-position: -620px -615px;
+}
+.feature-app-content.content-new .feature-icon.faster-checkouts-icon{
+	background-position: -860px -605px;
+}
+.feature-app-content.content-new .feature-icon.sell-more-icon{
+	background-position: -20px -725px;
+}
+.feature-app-content.content-new .feature-icon.visibility-icon{
+	background-position: -140px -725px;
+}
+.feature-app-content.content-new .feature-icon.piecewise-barcode-icon{
+	background-position: -260px -725px;
+}
+.feature-app-content.content-new .feature-icon.go-digital-icon{
+	background-position: -380px -725px;
+}
+.feature-app-content.content-new .feature-icon.profit-purchase-icon{
+	background-position: -500px -725px;
+}
+.feature-app-content.content-new .feature-icon.repe-footfall-icon{
+	background-position: -620px -725px;
+}
+.feature-app-content.content-new .feature-icon.easy-operations{
+	background-position: -740px -495px;
+}
+.feature-app-content.content-new .feature-icon.auto-validation{
+	background-position: -860px -495px;
+}
+.feature-app-content.content-new .feature-icon.order-mgmt{
+	background-position: -20px -615px;
+}
+.feature-app-content.content-new .feature-icon.multi-chain-mgmt{
+	background-position: -140px -615px;
+}
+.feature-app-content.content-new .feature-icon.cust-records{
+	background-position: -260px -615px;
+}
+.feature-app-content.content-new .feature-icon.smart-reorder-icon{
+	background-position: -380px -615px;
+}
+.feature-app-content.content-new .feature-icon.integration-icon{
+	background-position: -500px -605px;
+}
+
+.feature-content{
+	min-height: 170px;
+}
+.feature-content h3{
+	font-size: 13.5px;
+    font-weight: 700;
+    margin: 10px auto 5px;
+	color: #000;
+}
+.feature-content p{
+	color: #424242;
+	margin-bottom: 0;
+}
+.feature-inner-link{
+	color: #397bf3;
+}
+.feature-desc > a span{
+	text-decoration: underline;
+	transition: .5s ease;
+}
+.feature-desc > a span:hover{
+	margin-right: 5px;
+}
+.intro-bg{
+	padding: 0 15px;
+	margin-bottom: 60px;
+	display: block;
+}
+.intro-bg img{
+	width: 100%;
+}
+.g_gobill_supported{
+	display: none;
+}
+.hq-container-fluid {
+	padding-top: 20px;
+	padding-bottom: 25px;
+	border-bottom: 5px solid #EDF0F6;
+	height: 505px;
+}
+.inline-reg-form, #inline-RegForm {
+	margin: 0 auto;
+	float: none;
+	text-align: center;
+}
+.inline_email, .inline_mob, .inline_otp, .inline-dw-btn-desk, #inline_otp_val {
+	display: block;
+	margin: 0 auto;
+	width: 350px;
+	border: 1px solid #C9C9C9;
+}
+.vertical-banners .col-md-5 {
+	text-align: center;
+}
+#inline-download_link_product {
+	width: 350px;
+}
+#inline-reg-section {
+	margin-top: 40px;
+	border-radius: 3px;
+	background-color: #EDF0F6;
+	padding: 25px 0;
+}
+.intl-tel-input {
+	display: block !important;
+}
+.inline-mobile-prefix {
+	top: 92px;
+	margin-left: -171px;
+}
+.retail_select{
+	display: none;
+}
+#retailtype{
+	width: 100%;
+    max-width: 350px;
+    height: 38px;
+    font-size: 14px;
+    margin-bottom: 5px;
+    padding: 4px 8px;
+    outline: none;
+}
+.inline_cloud{
+	display: none;
+}
+.inline_cloudlink{
+	background-color: #f0493f;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 7px 15px;
+    border-radius: 50px;
+    transition: .2s ease;
+    display: block;
+    margin: 10px auto 5px;
+    width: 350px;
+    border: 1px solid #C9C9C9;
+}
+.inline_cloudlink:hover{
+	color: #fff;
+	background-color: #da3a30;
+}
+#store_count {
+	width: 350px;
+	font-size: 14px;
+	margin-top: 0;
+}
+input{
+	border: 1px solid #C9C9C9;
+}
+#inline_otp_val {
+	box-shadow: none;
+	margin-top: 5px;
+}
+select {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	text-indent: 1px;
+	text-overflow: '';
+}
+.field-dropdown-icon {
+	right: 70px;
+	top: 16px
+}
+.common-field {
+	margin-top: 5px;
+}
+.inline-send-otp {
+	margin-left: 59px;
+	margin-top: -31px;
+}
+.inline-resendotp {
+	margin-left: 45px;
+	background-color: transparent;
+}
+#inline_otp_sucess_logo {
+	background: url("../images/global-sprite.png") no-repeat scroll -559px -878px;
+	margin-top: 9px;
+}
+.inline_thankyou_desktop {
+	float: none;
+	right: 0;
+	background-color: transparent;
+	padding: 40px 10px;
+}
+.visible-xs {
+	max-width: 530px;
+	width: 100%;
+}
+#inline_otp-sent, #inline_sending-otp, #inline_rsnd-otp-msg {
+	margin-left: 27px;
+}
+.vertical-banners img {
+	margin-left: 15px;
+}
+.vertical-banners .col-md-5 {
+	margin-left: -15px;
+}
+.hq-img-main {
+	transform: scale(0.9);
+	margin-left: 45px !important;
+	margin-top: -20px;
+}
+.spa-feature-section{
+	padding:80px 0px 80px 0px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+}
+.spa-feature-section .col-md-12{
+	padding:30px 0;
+}
+.spa-feature-section .sm-feat-content {
+	width: 272px!important;
+	margin-top: 50px;
+}
+.spa-feature-section .sm-feat-content .cont{
+	font-size: 14px;
+}
+.spa-feature-section .sm-feat-content .cont a{
+	color:#397bf3
+}
+.feature-btn-wrap{
+	    margin-top: 35px;
+	    margin-bottom: 10px;
+}
+.spa-feature-section .sm-feat-content a{
+	text-decoration: underline;
+}
+.spa-feature-section .col-centered{
+	text-align:center;
+	margin-left: auto;
+	
+}
+.spa-mypulse-banner-sec{
+	background: url(../images/vertical-images/spa-and-salon/spa-salon-banner-bg.png) no-repeat;
+	background-size: 100% 100%;
+	padding-top: 60px;
+	
+}
+.spa-testimonial-sec{
+	background: url(../images/vertical-images/spa-and-salon/spa-testmonial-bg.jpg) no-repeat;
+	background-size: 100% 100%;
+	display: flex;
+	align-items: center;
+		position: relative;
+	    height: 500px;
+}
+.spa-testimonial-sec .testimonial-cont{
+	max-width: 620px;
+	margin: auto;
+	font-size: 20px;
+	z-index: 0;
+}
+.spa-testimonial-sec .testimonial-bg-circle{
+	   width: 400px;
+    height: 400px;
+    background: #fff;
+    border-radius: 50%;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.spa-testimonial-sec h2{
+	font-size: 20px	;
+		font-weight: 600;
+	    margin-top: 0;
+
+}
+.spa-testimonial-sec h4{
+	font-size: 14px;
+	font-weight: 400;
+	    margin-top: 2px;
+}
+.spa-testimonial-sec .left-quote,.spa-testimonial-sec .right-quote{
+	background: url(../images/vertical-images/spa-and-salon/spa-and-salon-sprite.png) no-repeat;
+	    height: 42px;
+    width: 55px;
+}
+.spa-testimonial-sec .left-quote-big,.spa-testimonial-sec .right-quote-big{
+	background: url(../images/vertical-images/spa-and-salon/spa-and-salon-sprite.png) no-repeat;
+    height: 48px;
+    width: 59px;	
+	display: inline-block;
+}
+.spa-testimonial-sec .left-quote{
+    background-position: -448px -108px;
+    margin-left: -40px;
+    margin-top: -7px;
+    margin-right: 5px;
+    position: relative;
+    top: 25px;
+    left: -5px;
+}
+.spa-testimonial-sec .right-quote{
+	background-position: -504px -108px;
+    vertical-align: top;
+    margin-top: 3px;
+    margin-bottom: 10px;
+    margin-left: 3px;
+    position: relative;
+    left: 97%;
+    top: -25px;
+}
+.spa-testimonial-sec .left-quote-big{
+    background-position: -577px -102px;
+    margin-left: 20px;
+    margin-right: 15px;
+  
+}
+.spa-testimonial-sec .content-block{
+	z-index: 1;position: relative;display: block;line-height: 30px;
+}
+.spa-testimonial-sec .right-quote-big{
+	background-position: -645px -102px;
+    vertical-align: top;
+       margin-right: -55px;
+    margin-left: 15px;
+}
+.spa-salon-icon {
+	background: url(../images/vertical-images/spa-and-salon/spa-and-salon-sprite.png) no-repeat;
+	    height: 102px;
+	width: 80px;
+	display: inline-block;
+}
+.spa-salon-icon1 {
+	background-position: -93px -29px;
+	width: 78px;
+}
+.spa-salon-icon2 {
+	background-position: -189px -35px;
+	width: 145px;
+}
+.spa-salon-icon3 {
+	background-position: -3px -129px;
+	width: 112px;
+}
+.spa-salon-icon4 {
+    background-position: -119px -130px;
+    width: 112px;
+    height: 102px;
+}
+.spa-salon-icon5 {
+	background-position: -21px -32px;
+	width: 65px;
+}
+.spa-salon-icon6 {
+	background-position: -235px -135px;
+	width: 154px;
+}
+.spa-salon-icon7 {
+	background-position: -9px -229px;
+	width: 115px;
+}
+.spa-salon-icon8 {
+	background-position: -143px -229px;
+	width: 95px;
+}
+.spa-mypulse-cont-wrap{
+	display: flex;
+	align-items: flex-end;
+}
+.spa-mypulse-cont-wrap img{
+	max-width: 120%;
+}
+.appstore-wrap{
+
+}
+.spa-mypulse-cont-wrap h4{
+	font-weight: 400
+}
+.spa-mypylse,.spa-app-store,.spa-play-store{
+ 	background: url(../images/vertical-images/spa-and-salon/spa-and-salon-sprite.png);
+    background-position: -347px 81px;
+    width: 188px;
+    height: 60px;
+	margin: auto;
+}
+.spa-app-store{
+    background-position: -378px -33px;
+    width: 48px;
+    height: 48px;
+	display: inline-block;
+	    margin: 5px;
+}
+.spa-play-store{
+    background-position: -439px -33px;
+    width: 48px;
+    height: 48px;
+	display: inline-block;
+	    margin: 5px;
+}
+.spa-chain-icon-wrap{
+	font-size: 12px;
+    line-height: 15px;
+    position: relative;
+    text-align: left;
+    width: 155px;
+    display: inline-block;
+    font-weight: 600;
+}
+.spa-chain-icon-wrap1{
+	    top: 133px;
+    left: -75px;
+}
+.spa-chain-icon-wrap2{
+	    top: 40px;
+    left: -80px;
+}
+.spa-chain-icon-wrap3{
+	    top: 0px;
+    left: -65px;
+}
+.spa-chain-icon-wrap4{
+	    top: 45px;
+    left: 35px;
+}
+.spa-chain-icon-wrap5{
+ top: 100px;
+    left: 45px;
+
+}
+.spa-chain-icon{
+	background: url(../images/vertical-images/spa-and-salon/spa-and-salon-sprite.png);
+	height: 200px;
+	width: 200px;
+}
+.spa-chain-icon1{ background-position: 281px -178px;
+    height: 65px;
+    width: 75px;}
+.spa-chain-icon2{     background-position: 175px -171px;
+    height: 69px;
+    width: 112px;}
+.spa-chain-icon3{ background-position: 178px -402px;
+    height: 90px;
+    width: 180px;}
+.spa-chain-icon4{ background-position: 311px -278px;
+    height: 105px;
+    width: 143px;}
+.spa-chain-icon5{ background-position: 153px -293px;
+    height: 83px;
+    width: 148px;
+}
+.mobile-app-banner{
+	background: url(../images/vertical-images/Electronics/electronics-mobile-apps-bg.jpg) no-repeat;
+	background-size: cover;
+}
+.mobile-app-banner .container{color:#fff;display: flex;align-items: center;justify-content: center;text-align: center}
+.mobile-app-banner .cont-wrap h2{
+	margin: 0;text-shadow:3px 2px 6px #000000
+}
+.sellapps-img{
+	max-width: 605px ;
+	width:100%;
+	margin-top: 60px;
+	
+}
+/* rest new */
+#banner_section{
+	display: none;
+}
+.restaurant-back{
+ 	background: url(../images/vertical-images/Restaurant-bar/restaurant-banner.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    display: block;
+    padding: 95px 0px;
+    background-size: cover;
+	position: relative;
+    overflow-y: hidden;
+}
+.retail-back{
+	background: url(../images/vertical-images/Apparel/apparel_banner.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    display: block;
+    padding: 95px 0px;
+    background-size: cover;
+	position: relative;
+    overflow-y: hidden;
+}
+.DE-banner-new{
+	background: url("../images/vertical-images/DE-pharma/bg_paints.jpg");
+	background-repeat: no-repeat;
+	width: 100%;
+    height: auto;
+    display: block;
+    padding: 95px 0px;
+    background-size: cover;
+	position: relative;
+    overflow-y: hidden;
+}
+.sinban_elect{
+	background: url(../images/vertical-images/Electronics/Electronics_bg.jpg);
+}
+.sinban_hyper,.department_banner{
+	background: url("../images/vertical-images/Hypermarket/Hypermarket_bg.jpg");
+}
+.sinban_lifestyle,.lifestyle_banner{
+	background: url("../images/vertical-images/Lifestyle/lifestyle_bg.jpg");
+}
+.sinban_pharma,.pharma_banner{
+	background: url("../images/vertical-images/Pharma/Pharmacy_bg.jpg");
+}
+.sinban_super,.super_banner{
+	background: url("../images/vertical-images/Hypermarket/Supermarket_bg.jpg");
+}
+.sinban_spacial,.special_banner{
+	background: url("../images/vertical-images/Specialized-retail/Specialized_bg.jpg");
+}
+.sinban_spacial.lifestyle_banner{
+	background: url("../images/vertical-images/Lifestyle/lifestyle_bg.jpg");
+}
+.apparel_banner,.sinban_apperal{
+	background: url(../images/vertical-images/Apparel/apparel_banner.jpg);
+}
+.electrical_banner{
+	background: url("../images/vertical-images/Electronics/Electronics_bg.jpg");
+}
+.g_restaurant_banner{
+	background: url(../images/vertical-images/Restaurant-bar/restaurant-banner.jpg);
+}
+.g_bakery_banner{
+	background: url(../images/vertical-images/Restaurant-bar/bakery-banner.jpg);
+}
+.g_qsr_banner{
+	background: url(../images/vertical-images/Restaurant-bar/qsr-banner.jpg);
+}
+.g_multichain_banner{
+	background: url(../images/vertical-images/Restaurant-bar/multichain-banner.jpg);
+}
+.g_bar_banner{
+	background: url(../images/vertical-images/Restaurant-bar/bar-banner.jpg);
+}
+.g_truck_banner{
+	background: url("../images/vertical-images/F-Truck/Food-truck-Delivery.jpg");
+}
+.de-specialized{
+	background: url("../images/vertical-images/DE-pharma/bg_paints.jpg");
+}
+.de-lubricantbg{
+	background: url("../images/vertical-images/DE-pharma/bg_lubricants.jpg");
+}
+.de-fmcgbg{
+	background: url("../images/vertical-images/FMCG/bg_fmcg.jpg");
+}
+.de-pharmabg{
+	background: url("../images/vertical-images/FMCG/bg_pharma.jpg");
+}
+.retailban_shoe{
+	background: url(../images/vertical-images/Apparel/shoes_bg.jpg);
+}
+.retailban_footwear{
+	background: url(../images/vertical-images/Apparel/Footwear_bg.jpg);
+}
+.retailban_boutique{
+	background: url(../images/vertical-images/Apparel/Boutique_bg.jpg);
+}
+.retailban_costume{
+	background: url(../images/vertical-images/Apparel/Fancy-Costume_bg.jpg);
+}
+.retail_elecban{
+	background: url(../images/vertical-images/Electronics/Electricalbg.jpg);
+}
+.retailhardban{
+	background: url(../images/vertical-images/Electronics/hardwarebg.jpg);
+}
+.retailmobileban{
+	background: url(../images/vertical-images/Electronics/mobilebg.jpg);
+}
+.retail_gamesban{
+	background: url(../images/vertical-images/Electronics/videosbg.jpg);
+}
+.sinban_salon{
+	background: url("../images/vertical-images/Lifestyle/Beauty-parlour_bg.jpg");
+}
+.retailban_fancystore{
+	background: url("../images/vertical-images/Lifestyle/Fancy-store_bg.jpg");
+}
+.retailban_bookshop{
+	background: url("../images/vertical-images/Lifestyle/Book-shop_bg.jpg");
+}
+.retailban_station{
+	background: url("../images/vertical-images/Lifestyle/Book-shop_bg.jpg");
+}
+.retailban_bookpublish{
+	background: url("../images/vertical-images/Lifestyle/Book-shop_bg.jpg");
+}
+.retailban_photoshop{
+	background: url("../images/vertical-images/Lifestyle/Photo-shop_bg.jpg");
+}
+.retailban_toys{
+	background: url("../images/vertical-images/Lifestyle/Toys_bg.jpg");
+}
+.retailban_opticals{
+	background: url("../images/vertical-images/Lifestyle/Optical_bg.jpg");
+}
+.retailban_music{
+	background: url("../images/vertical-images/Lifestyle/Music_bg.jpg");
+}
+.retailban_furniture{
+	background: url("../images/vertical-images/Lifestyle/Furniture_bg.jpg");
+}
+.retailban_glass{
+	background: url("../images/vertical-images/Lifestyle/Glass-Crockeries_bg.jpg");
+}
+.retailban_fashion{
+	background: url("../images/vertical-images/Lifestyle/Fashion-jewelry_bg.jpg");
+}
+.retailban_luggage{
+	background: url("../images/vertical-images/Lifestyle/Luggage-and-Bags_bg.jpg");
+}
+.retailban_watch{
+	background: url("../images/vertical-images/Lifestyle/Watches_bg.jpg");
+}
+.retailban_beauty{
+	background: url("../images/vertical-images/Lifestyle/lifestyle_bg.jpg");
+}
+.retailban_florist{
+	background: url("../images/vertical-images/Lifestyle/Florists_bg.jpg");
+}
+.retail_ayur_banner{
+	background: url("../images/vertical-images/Pharma/Ayurvedic_bg.jpg");
+}
+.retail_surg_banner{
+	background: url("../images/vertical-images/Pharma/Surgical_bg.jpg");
+}
+.retail_fruit_banner{
+	background: url("../images/vertical-images/Hypermarket/Fruits_bg.jpg");
+}
+.retail_rice_banner{
+	background: url("../images/vertical-images/Hypermarket/Rice_traders_bg.jpg");
+}
+.retail_Fertil_banner{
+	background: url("../images/vertical-images/Specialized-retail/Fertilizer_bg.jpg");
+}
+.retail_Gifts_banner{
+	background: url("../images/vertical-images/Specialized-retail/Gifts_bg.jpg");
+}
+.retail_spechard_banner{
+	background: url("../images/vertical-images/Specialized-retail/Hardware_bg.jpg");
+}
+.sports_banner{
+	background: url("../images/vertical-images/Specialized-retail/Sports_bg.jpg");
+}
+.spec_vess_banner{
+	background: url("../images/vertical-images/Specialized-retail/Vessels_bg.jpg");
+}
+.g_cake_banner{
+	background: url(../images/vertical-images/Bakery/Cake-shop-rest.jpg);
+}
+.g_sweet_banner{
+	background: url(../images/vertical-images/Bakery/Sweet-shop-rest.jpg);
+}
+.g_burger_banner{
+	background: url(../images/vertical-images/Restaurant-bar/Burger-rest.jpg);
+}
+.g_cafe_banner{
+	background: url(../images/vertical-images/Restaurant-bar/Cafeteria-rest.jpg);
+}
+.g_chaat_banner{
+	background: url(../images/vertical-images/Restaurant-bar/Chaat-shop-rest.jpg);
+}
+.g_coffee_banner{
+	background: url(../images/vertical-images/Restaurant-bar/Coffee-shop-rest.jpg);
+}
+.g_dessert_banner{
+	background: url(../images/vertical-images/Restaurant-bar/Dessert-rest.jpg);
+}
+.g_fstreet_banner{
+	background: url(../images/vertical-images/Restaurant-bar/Food-Street-rest.jpg);
+}
+.g_ice_banner{
+	background: url(../images/vertical-images/Restaurant-bar/Ice-cream-rest.jpg);
+}
+.g_juice_banner{
+	background: url(../images/vertical-images/Restaurant-bar/Juice-shop-rest.jpg);
+}
+.g_buffet_banner{
+	background: url(../images/vertical-images/Restaurant-bar/buffet-restaurant.jpg);
+}
+.g_drive_banner{
+	background: url(../images/vertical-images/Restaurant-bar/drive-in-rest.jpg);
+}
+.g_bistro_banner{
+	background: url(../images/vertical-images/Restaurant-bar/Bistro-rest.jpg);
+}
+.banner-tablet img{
+    max-width: 648px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+.rest-heading{
+  font-size: 44px;
+  font-weight: 700;
+  color: #fff;
+}
+.rest-heading span{
+  display: block;
+  color: #fff;
+}
+/* .vertical-heading {
+    color: #fff;
+    text-align: left;
+    font-size: 26px;
+    margin-bottom: 13px;
+    margin-top: 11px;
+} */
+.home-ban-btn {
+    padding: 11px 31px;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 28px auto;
+    display: inline-block;
+    box-shadow: 0 4px 8px 0 rgb(52 193 93 / 40%), 0 6px 20px 0 rgb(52 193 93 / 9%);
+    background-color: #33C15E;
+    border-color: #33C15E;
+    border-radius: 10px;
+}
+.home-ban-btn{
+	margin: 28px 0;
+	max-width: 280px;
+    text-align: center;
+}
+.home-ban-btn:hover, .home-ban-btn:active, .home-ban-btn:focus{
+  background-color: #20a046;
+    border-color: #20a046;
+}
+.retail-back .home-ban-btn{
+	box-shadow: 0 4px 8px 0 rgb(245 74 74 / 57%), 0 6px 20px 0 rgb(243 65 65 / 9%);
+    background-color: #f0493f;
+    border-color: #f0493f;
+}
+.retail-back .home-ban-btn:hover, .retail-back .home-ban-btn:active, .retail-back .home-ban-btn:focus{
+  	border: 1px solid #da3a30;
+    background: #da3a30;
+}
+.DE-banner-new .home-ban-btn{
+	box-shadow: 0 4px 8px 0 rgb(249 206 36 / 65%), 0 6px 20px 0 rgb(209 212 53 / 9%);
+    background-color: #f0c107;
+    border-color: #f0c107;
+}
+.DE-banner-new .home-ban-btn:hover, .DE-banner-new .home-ban-btn:active, .DE-banner-new .home-ban-btn:focus{
+  	background-color: #caa100;
+    border-color: #caa100;
+}
+.top-line {
+    width: 51px;
+    height: 5px;
+    background-color: #33C15E;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.DE-banner-new .top-line{
+	background-color: #f0c107;
+}
+.retail-back .top-line{
+	background-color: #f0493f;
+}
+.vertical-sub-heading{
+  color: #fff;
+  font-size: 16px;
+    font-style: italic;
+    line-height: 1.5;
+}
+/* rest new */
+@media only screen and (max-width: 1200px){
+	.verticalban_img img{
+		max-width: 50%;
+	}
+	.gft_verticalh1{
+		font-size: 40px;
+	}
+	.gft_verticalh2{
+		font-size: 18px;
+	}
+}
+
+@media only screen and (min-width: 1300px){
+ 	.banner-details{
+		min-height: 474px;
+	    display: flex;
+	    flex-direction: column;
+	    justify-content: center;
+	    padding: 0;
+	    left: -20px;
+	}
+}
+@media only screen and (min-width: 1660px){
+	.restaurant-back,.retail-back,.DE-banner-new{
+	  padding: 210px 15px;
+	}
+	.banner-tablet img {
+	  max-width: 855px;
+  }
+  .banner-details{
+	position: relative;
+	left: -95px;
+  }
+  }
+  @media only screen and (max-width: 1300px){
+  	.banner-tablet img {
+	  max-width: 599px;
+	  width: 50%;
+	}
+  }
+  @media only screen and (max-width: 1300px) and (min-width: 1280px){
+	.restaurant-back,.retail-back,.DE-banner-new {
+	  padding: 68px 15px;
+	}
+	
+  }
+  @media only screen and (max-width: 1024px){
+	.restaurant-back,.retail-back,.DE-banner-new {
+	  padding: 24px 15px;
+	}
+	.banner-tablet img {
+	  max-width: 523px;
+	  top: 0;
+  }
+  .rest-heading {
+    padding-left: 5px;
+}
+  /* .vertical-heading {
+	  text-align: center;
+	  font-size: 22px;
+  } */
+  }
+  @media only screen and (max-width: 992px){
+	.gft_vertical_banner{
+  		text-align: center;
+  		padding: 90px 0 0;
+  	}
+  	.verticalban_img img{
+  		position: relative;
+  		max-width: 100%;
+  		float: right;
+  		right: -15px;
+  		top: 0;
+  	}
+  	.verticalban_img .gftvertban_fullimg{
+  		right: 0;
+  		float: none;
+  	}
+  	.gft_vertical_banner .col-md-12{
+  		padding: 0;
+  	}
+  	.gft_verticalh1{
+  		font-size: 35px;
+  	}
+  .rest-heading {
+	  font-size: 39px;
+  }
+  .banner-tablet img {
+	  max-width: 466px;
+    top: 0px;
+    right: 0;
+  }
+  .banner-details{
+  	width: 50%;
+  }
+  }
+  @media only screen and (max-width: 769px){
+	.rest-heading span {
+	  display: initial;
+  }
+  .gft_verticalh1{
+  		font-size: 32px;
+  	}
+  	.gft_vertical_banner{
+  	padding: 40px 0 0;
+  }
+
+  .banner-tablet{
+	text-align: center;
+  }
+  .rest-heading {
+	  font-size: 30px;
+	  text-align: center;
+	  line-height: 1.3;
+  }
+  .banner-tablet img {
+	  max-width: 100%;
+	  bottom: -24px;
+	  position: relative;
+	  top: initial;
+	  left: auto;
+	  right: auto;
+	  width: 100%;
+  }
+  .restaurant-back,.retail-back,.DE-banner-new {
+	  padding: 24px 0px;
+  }
+  .top-line {
+	margin: 30px auto;
+  }
+  .vertical-sub-heading {
+	margin: 0px auto 20px;
+	  text-align: center;
+  }
+  .banner-details{
+	text-align: center;
+	width: 100%;
+  }
+  }
+@media only screen and (max-width: 1200px) {
+	.restaurant-back .container,.retail-back .container, .DE-banner-new .container{
+		margin-left: 0
+	}
+.vertical-banners img {
+	margin-left: 0px !important;
+}
+.vertical-banners .col-md-5 {
+	margin-left: 0px !important;
+}
+.hq-container-fluid {
+	height: auto;
+}
+.hq-img-main {
+	transform: scale(1);
+	margin-left: 0px;
+	margin-top: 0px;
+}
+	.spa-chain-icon-wrap{
+	left:0;
+		top:0;
+		width:28%;
+		padding: 20px;
+		text-align: center
+	}
+	.spa-chain-icon{
+		margin: auto;
+	}
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 550px){
+	.inline_cloudlink,#retailtype{
+		width: 280px;
+	}
+}
+@media(max-width:1199px){
+	.appstore-wrap{
+		padding: 0
+	}
+	.sm-seo-content-section{
+		background: #fff;
+	}
+	.sellapps-img{
+	max-width: 405px ;	
+}
+}
+@media(max-width:991px){
+	.spa-mypulse-cont-wrap {
+		
+	}
+	.spa-testimonial-sec .testimonial-bg-circle{
+	   width: 350px;
+    height: 350px;
+}
+	.spa-testimonial-sec{
+		    height: auto;
+    padding: 50px;
+	}
+		.sellapps-img{
+display: none
+}
+	.mobile-app-banner{
+		padding:60px 0
+	}
+	.vertical-feature{
+		max-width: 640px;
+	}
+	.feature-content {
+		max-width: 240px;
+		margin: 0 auto;
+		min-height: 170px;
+	}
+}
+
+@media (max-width:767px) {
+	.specialized_de_features{
+    	margin: 40px 0px 60px 0px;
+	}
+	.de_specialized_app{
+		display: none;
+	}
+	.join_them_cta{
+		display: block;
+		margin: 20px auto;
+	}
+	.despacial_icon_mobile{
+		background: url(../images/vertical-images/FMCG/fmcg-packaged-vertical-sprite.png);
+	    height: 60px;
+	    width: 80px;
+	    float: left;
+	    margin-right: 15px;
+	}
+	.fmcg-whatsnow-img{
+		background-position: -18px 140px;
+	}
+	.fmcg-cloud-img{
+		background-position: -93px 140px;
+	}
+	.fmcg-service-img{
+		background-position: -165px 140px;
+	}
+	.fmcg-inventory-icon{
+		background-position: -240px 141px;
+	}
+	.fmcg-sms-icon{
+		background-position: -17px 80px;
+	}
+	.fmcg-price-icon{
+		background-position: -90px 80px;
+	}
+	.fmcg-sales-icon{
+		background-position: -162px 81px;
+	}
+	.specialized_de_features .col-md-4{
+		display: block;
+	    max-width: 100%;
+	}
+	.vertical-heading{
+		padding: 0 10px;
+	}
+	.vertical-feature{
+		margin-top: 20px;
+	}
+	.feature-app-content{
+		display: flex;
+		border-top: 1px solid #eee;
+		padding: 3px 0;
+    	margin-bottom: 0;
+		transition: all 0.3s ease-out;
+		cursor: pointer;
+	}
+	.feature-app-content.content-new{
+		padding: 5px 0;
+	}
+	.vertical-feature > div:last-child{
+		border-bottom: 1px solid #eee;
+	}
+	.feature-icon{
+		height: 60px;
+		width: 85px;
+		pointer-events: none;
+	}	
+	.res-feature-icon{
+		height: 60px;
+		width: 85px;
+		pointer-events: none;
+	}
+	.bakery-whatsnow-ft{
+		background-position: -503px -14px;
+	}
+	.bakery-cloud-ft{
+		background-position: -576px -14px;
+	}
+	.bakery-service-ft{
+		background-position: -651px -14px;
+	}
+	.bakery-inventory-ft{
+		background-position: -727px -74px;
+	}
+	.bakery-sms-ft{
+		background-position: -500px -74px;
+	}
+	.bakery-price-ft{
+		background-position: -583px -74px;
+	}
+	.bakery-sales-ft{
+		background-position: -649px -74px;
+	}
+	.sweet-inventory-ft{
+		background-position: -655px -195px;
+	}
+	.sweet-sms-ft{
+		background-position: -725px -255px;
+	}
+	.sweet-price-ft{
+		background-position: -505px -315px;
+	}
+	.sweet-sales-ft{
+		background-position: -582px -197px;
+	}
+	.servjoy-ft{
+		background-position: -580px -252px;
+	}
+	.table-ft{
+		background-position: -576px -377px;
+	}
+	.bar-sales-ft{
+		background-position: -656px -316px;
+	}
+	.bar-sms-ft{
+		background-position: -656px -257px;
+	}
+	.kds-ft{
+		background-position: -656px -136px;
+	}
+	.truck-inventory-ft{
+		background-position: -729px -316px;
+	}
+	.truck-price-ft{
+		background-position: -503px -139px;
+	}
+	.truck-sales-ft{
+		background-position: -578px -137px;
+	}
+	.truck-sms-ft{
+		background-position: -502px -379px;
+	}
+	.qsr-inventory-ft{
+		background-position: -731px -194px;
+	}
+	.qsr-sales-ft{
+		background-position: -508px -252px;
+	}
+	.court-inventory-ft{
+		background-position: -150px -720px;
+	}
+	.ice-combo-ft{
+		background-position: -727px -136px;
+	}
+	.ice-party-ft{
+		background-position: -507px -200px;
+	}
+	.food-agg-ft{
+		    background-position: -731px -14px;
+	}
+	.gosecure-ft {
+    background-position: -577px -317px;
+	}
+	.banner-videolink{
+		font-size: 10px;
+		line-height: 22px;
+		width: 25px;
+		height: 25px;
+		padding: 2px 9px;
+	}
+	.banner-videolink:before{
+		width: 20px;
+    	height: 20px;
+	}
+	.banner-videolink:after {
+		width: 25px;
+		height: 25px;
+	}
+	.feature-content {
+		width: 100%;
+		text-align: left;
+		margin-left: 15px;
+		min-height: auto;
+		max-width: initial;
+	}
+	.feature-content h3{
+		margin-top: 18px;
+		margin-bottom: 0px;
+		transition: margin-top 0.3s ease-out;
+	}
+	.feature-desc{
+		max-height: 0;
+		overflow: hidden;
+		margin: 0;
+    	font-size: 13px;
+		transition: max-height 0.3s ease-out;
+		line-height: 1.3;
+	}
+	.featureactive h3{
+		margin-top: 0;
+	}
+	.feature-icon-try{
+		display: inline-block;
+	}
+	.feature-hide-know{
+		opacity: 0;
+	}
+	.feature-icon.whatsnow-icon{
+		background-position: -516px -14px;
+	}
+	.feature-icon.sellquick-icon{
+		background-position: -660px -503px;
+	}
+	.feature-icon.ecom-icon{
+		background-position: -585px -75px;
+	}
+	.feature-icon.alert-icon{
+		background-position: -511px -76px;
+	}
+	.feature-icon.orderver-icon {
+    background-position: -510px -745px;
+}
+	.feature-icon.pda-icon{
+		background-position: -584px -136px;
+	}
+	.feature-icon.inventry-icon{
+		background-position: -658px -135px;
+	}
+	.feature-icon.barcode-icon{
+		background-position: -509px -196px;
+	}
+	.feature-icon.account-icon{
+		background-position: -730px -138px;
+	}
+	.feature-icon.pos-cloud-icon{
+		background-position: -736px -13px;
+	}
+	.feature-icon.acc-inventry-icon{
+		background-position: -507px -676px;
+	}
+	.feature-icon.sales-process-icon{
+		background-position: -579px -679px;
+	}
+	.feature-icon.service-module-icon{
+		background-position: -504px -619px;
+	}
+	.feature-icon.sales-alert-icon{
+		background-position: -580px -619px;
+	}
+	.feature-icon.manage-module-icon{
+		background-position: -653px -317px;
+	}
+	.feature-icon.offer-icon{
+		background-position: -655px -619px;
+	}
+	.feature-icon.floorwise-icon{
+		background-position: -660px -678px;
+	}
+	.feature-icon.product-categ-icon{
+		background-position: -655px -133px;
+	}
+	.feature-icon.multibill-icon{
+		background-position: -506px -317px;
+	}
+	.feature-icon.weightscale-icon{
+		background-position: -580px -319px;
+	}
+	.feature-icon.toy-baby-icon{
+		background-position: -577px -195px;
+	}
+	.feature-icon.bags-icon{
+		background-position:-657px -191px
+	}
+	.feature-icon.optical-icon{
+		background-position: -729px -191px;
+	}
+	.feature-icon.homedoor-icon{
+			background-position: -503px -259px;
+	}
+	.feature-icon.movies-music-icon{
+		background-position: -581px -259px;
+	}
+	.feature-icon.gift-icon{
+		background-position:-654px -259px;
+	}
+	.feature-icon.chart-icon{
+		background-position: -724px -320px;
+	}
+	.feature-icon.profit-icon{
+		background-position: -507px -377px;
+	}
+	.feature-icon.savetime-icon{
+		background-position: -581px -377px;
+	}
+	.feature-icon.smartemp-icon{
+		background-position: -652px -382px;
+	}
+
+	.feature-icon.know-customer-icon{
+		background-position: -733px -382px;
+	}
+	.feature-icon.know-spend-icon{
+		background-position: -507px -441px;
+	}
+	.feature-icon.easy-flex-icon{
+		background-position: -580px -437px;
+	}
+	.feature-icon.sellsmart-icon{
+		background-position: -656px -14px;
+	}
+	.feature-icon.mypulse-icon{
+		background-position: -737px -498px;
+	}
+	.feature-icon.autoparts-icon{
+		background-position: -507px -557px;
+	}
+	.feature-icon.book-station-icon{
+		background-position: -579px -557px;
+	}
+	.feature-icon.spasalon-icon{
+		background-position: -723px -557px;
+	}
+	.feature-icon.pets-icon{
+		background-position: -652px -557px;
+	}
+	.feature-icon.weborder-icon{
+		background-position: -657px -440px;
+	}
+	.feature-icon.easy-intuit-icon{
+		background-position: -507px -319px;
+	}
+	.feature-icon.expiry-return-icon{
+		background-position: -731px -439px;
+	}
+	.feature-icon.smart-purchase-icon{
+		background-position: -505px -501px;
+	}
+	.feature-icon.upsell-icon{
+		background-position: -578px -501px;
+	}
+	.feature-icon.digital-ready-icon{
+		background-position: -583px -13px;
+	}
+	.feature-icon.effient-inventry-icon{
+		background-position: -656px -74px;
+	}
+	.feature-icon.protect-margin-icon{
+		background-position: -730px -78px;
+	}
+	.feature-icon.touch-integrate-icon{
+		background-position: -733px -678px;
+	}
+	.feature-icon.touch-integrate-icon:after{
+		    top: 3px;
+    right: -20px;
+	}
+
+	.feature-app-content.content-new .feature-icon {
+		height: 70px;
+		width: 90px;
+		pointer-events: none;
+	}
+	.feature-app-content.content-new h3{
+		font-size: 16px;	
+		margin-top: 25px;	
+	}
+	.feature-app-content.content-new .featureactive h3 {
+		margin-top: 10px;
+	}
+	.feature-app-content.content-new .feature-content{
+		margin-left: 20px;		
+	}
+	.feature-app-content.content-new .feature-icon.whatsnow-icon-new{
+		background-position: -25px -905px;
+	}
+	.feature-app-content.content-new .feature-icon.pos-cloud-icon-new{
+		background-position: -102px -905px;
+	}
+	.feature-app-content.content-new .feature-icon.e-com-new{
+		background-position: -185px -905px;
+	}
+	.feature-app-content.content-new .feature-icon.sellquick-icon-new{
+		background-position: -266px -905px;
+	}
+	.feature-app-content.content-new .feature-icon.purchase-mgmt-new{
+		background-position: -345px -905px;
+	}
+	.feature-app-content.content-new .feature-icon.mulitiLocation-icon{
+		background-position: -426px -905px;
+	}
+	.feature-app-content.content-new .feature-icon.barcode-icon-new{
+		background-position: -508px -905px;
+	}
+	.feature-app-content.content-new .feature-icon.reports-icon-new{
+		background-position: -587px -905px;
+	}
+	.feature-app-content.content-new .feature-icon.godeliver-icon{
+		background-position: -670px -986px;
+	}
+	.feature-app-content.content-new .feature-icon.gosure-icon-new{
+		background-position: -346px -986px;
+	}
+	.feature-app-content.content-new .feature-icon.furnishing-icon{
+		background-position: -750px -986px;
+	}
+	.feature-app-content.content-new .feature-icon.mypulse-icon{
+		background-position: -25px -986px;
+	}
+	.feature-app-content.content-new .feature-icon.crm-icon{
+		background-position: -833px -986px;
+	}
+	.feature-app-content.content-new .feature-icon.alert-icon-new{
+		background-position: -660px -905px;
+	}
+	.feature-app-content.content-new .feature-icon.integrate-easy-icon{
+		background-position: -742px -905px;
+	}
+	.feature-app-content.content-new .feature-icon.gobill-icon-new{
+		background-position: -821px -905px;
+	}
+	.feature-app-content.content-new .feature-icon.accounts-icon-new{
+		background-position: -905px -905px;
+	}
+	.feature-app-content.content-new .feature-icon.bouq-mgmt-icon{
+		background-position: -105px -986px;
+	}
+	.feature-app-content.content-new .feature-icon.ordereasy-icon-new{
+		background-position: -190px -986px;
+	}
+	.feature-app-content.content-new .feature-icon.paperless-billing{
+		background-position: -270px -986px;
+	}
+	.feature-app-content.content-new .feature-icon.loyalty-icon{
+		background-position: -428px -986px;
+	}
+	.feature-app-content.content-new .feature-icon.img-based-report{
+		background-position: -508px -986px;
+	}
+	.feature-app-content.content-new .feature-icon.auto-accounts{
+		background-position: -588px -986px;
+	}
+	.feature-app-content.content-new .feature-icon.improve-feedback{
+		background-position: -665px -1070px;
+	}
+	.feature-app-content.content-new .feature-icon.gain-cust-icon{
+		background-position: -740px -1070px;
+	}
+	.feature-app-content.content-new .feature-icon.matrix-support{
+		background-position: -822px -1070px;
+	}
+	.feature-app-content.content-new .feature-icon.custom-order{
+		background-position: -903px -1070px;
+	}
+	.feature-app-content.content-new .feature-icon.digi-invoice{
+		background-position: -27px -1149px;
+	}
+	.feature-app-content.content-new .feature-icon.assembly-kit{
+		background-position: -103px -1149px;
+	}
+	.feature-app-content.content-new .feature-icon.simplifed-search{
+		background-position: -27px -1069px;
+	}
+	.feature-app-content.content-new .feature-icon.attractive-offers{
+		background-position: -100px -1069px;
+	}
+	.feature-app-content.content-new .feature-icon.category-mgmt{
+		background-position: -185px -1069px;
+	}
+	.feature-app-content.content-new .feature-icon.salesman-commision{
+		background-position: -265px -1069px;
+	}
+	.feature-app-content.content-new .feature-icon.warranty-mgmt{
+		background-position: -347px -1069px;
+	}
+	.feature-app-content.content-new .feature-icon.actionable-reports{
+		background-position: -427px -1069px;
+	}
+	.feature-app-content.content-new .feature-icon.kit-items-icon{
+		background-position: -510px -1069px;
+	}
+	.feature-app-content.content-new .feature-icon.pricing-feat-icon{
+		background-position: -588px -1069px;
+	}
+	.feature-app-content.content-new .feature-icon.liquidate-stocks{
+		background-position:-740px -1149px;
+	}
+	.feature-app-content.content-new .feature-icon.faster-checkouts-icon{
+		background-position: -901px -1149px;
+	}
+	.feature-app-content.content-new .feature-icon.sell-more-icon{
+		background-position: -25px -1235px;
+	}
+	.feature-app-content.content-new .feature-icon.visibility-icon{
+		background-position: -103px -1235px;
+	}
+	.feature-app-content.content-new .feature-icon.piecewise-barcode-icon{
+		background-position: -185px -1235px;
+	}
+	.feature-app-content.content-new .feature-icon.go-digital-icon{
+		background-position: -265px -1235px;
+	}
+	.feature-app-content.content-new .feature-icon.profit-purchase-icon{
+		background-position: -350px -1235px;
+	}
+	.feature-app-content.content-new .feature-icon.repe-footfall-icon{
+		background-position: -425px -1235px;
+	}
+	.feature-app-content.content-new .feature-icon.easy-operations{
+		background-position: -184px -1149px;
+	}
+	.feature-app-content.content-new .feature-icon.auto-validation{
+		background-position: -264px -1149px;
+	}
+	.feature-app-content.content-new .feature-icon.order-mgmt{
+		background-position: -348px -1149px;
+	}
+	.feature-app-content.content-new .feature-icon.multi-chain-mgmt{
+		background-position: -428px -1149px;
+	}
+	.feature-app-content.content-new .feature-icon.cust-records{
+		background-position: -512px -1149px;
+	}
+	.feature-app-content.content-new .feature-icon.smart-reorder-icon{
+		background-position: -592px -1149px;
+	}
+	.feature-app-content.content-new .feature-icon.integration-icon{
+		background-position: -672px -1149px;
+	}
+
+	.mobile-app-banner .cont-wrap h2{
+		margin-bottom: 10px;
+	}
+.mobile-app-banner .know_more_btn {
+		margin: 10px 0 0 0 
+	}
+	.spa-testimonial-sec .content-block{
+		line-height: 1.5;
+}
+		.spa-testimonial-sec .testimonial-bg-circle{
+	   width: 250px;
+    height: 250px;
+			opacity: 0.7;
+}
+	.spa-chain-icon-wrap{
+	    width: 80%;
+    padding: 0;
+    margin-bottom: 25px;
+	}
+	.spa-testimonial-sec .right-quote-big,.spa-testimonial-sec .left-quote-big{
+		display: none
+	}
+	.spa-testimonial-sec .testimonial-cont {
+    width: 95%;
+		font-size:  16px;
+	}
+	.spa-testimonial-sec h2 {
+		margin-top: 15px;
+		font-size: 16px;
+	}
+	.spa-testimonial-sec h4 {
+		font-size: 14px;
+		margin-top:5px;
+	}
+	.spa-testimonial-sec{
+		height: auto;
+		padding: 40px 10px;
+		
+		background-size: cover
+	}
+.try-me-link a {
+	position: absolute;
+	right: 5px;
+	bottom: 0px;
+	font-size: 11px;
+	font-weight: 700;
+	color: #f0493f;
+}
+.toggle-vertical-desc {
+	display: block;
+	vertical-align: middle;
+	margin-top: 17px;
+	transition: all 0.3s ease-out;
+	font-size: 14px;
+	font-weight: 600;
+}
+.vertical-desc {
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.3s ease-out;
+	font-size: 13px;
+	line-height: 16px;
+	margin-bottom: 16px;
+}
+.vertical-desc span {
+	color: #3978f3;
+	display: block;
+}
+.vertical-desc-active {
+	max-height: 100%;
+}
+.toggle-vertical-desc-active {
+	margin-top: 0px;
+}
+.vertical-button-wrap {
+	display: flex;
+	margin-bottom: 50px !important;
+	justify-content: center;
+}
+	.spa-mypulse-cont-wrap h2 {
+		font-size: 22px;
+		line-height: 1.2
+			
+	}
+	.spa-mypulse-cont-wrap h4 {
+    font-weight: 400;
+    margin-top: 3px;
+}
+#popup_gofrugal {
+	bottom: 55px;
+}
+.vertical-mobile-container {
+	padding: 0 5px;
+}
+.vertical-mobile-container .col-xs-12 {
+	border-top: 1px solid #eee;
+	padding-top: 5px;
+	padding-bottom: 5px
+}
+.vertical-mobile-container h2 {
+	font-size: 20px;
+	line-height: 25px;
+	margin-bottom: 20px;
+	padding-top: 20px;
+}
+.retail-icon-mobile {
+	background: url(../images/global-sprite.png);
+	height: 60px;
+	width: 60px;
+	float: left;
+	margin-right: 15px;
+	}	
+	.f-bill-mobile	{
+		background-position: -436px -1062px;
+		
+	}
+	.inven-mobile{
+		background-position:-434px -1107px;
+		height:50px;
+	}
+	.cloudpos-mobile{
+		background-position: -434px -1145px;
+		height:50px;
+	}
+	.integration-mobile{
+		background-position: -432px -1181px;
+		height: 48px;
+		
+	}
+	.crm-mobile{
+		background-position: -428px -1217px;
+		height:50px;
+	}
+	.multistore-mobile{
+		background-position: -428px -1259px;
+		height:50px;
+	}
+.supermarket-icon-mobile {
+	background: url(../images/vertical-images/vertical-sprite.png);
+	height: 60px;
+	width: 74px;
+	float: left;
+	margin-right: 15px;
+}
+.supermarket-whatsnow-mobile {
+	background-position: -3px 165px;
+}
+.supermarket-sellquick-mobile {
+	background-position: -78px 163px;
+}
+.supermarket-sellsmart-mobile {
+	background-position: -149px 163px;
+}
+.supermarket-cloudpos-mobile {
+	background-position: -226px 162px;
+}
+.supermarket-digital-mobile {
+	background-position: -4px 103px;
+}
+.supermarket-alert-mobile {
+	background-position: -74px 103px;
+}
+.supermarket-inventory-mobile {
+	background-position: -152px 102px;
+}
+.supermarket-formula-mobile {
+	background-position: -227px 103px;
+}
+.hypermarket-icon-mobile {
+	background: url(../images/vertical-images/Hypermarket/hypermarket-sprite.png);
+	height: 60px;
+	width: 74px;
+	float: left;
+	margin-right: 15px;
+}
+.hypermarket-whatsnow-mobile {
+	background-position: -19px 184px;
+}
+.hypermarket-sellsmart-mobile {
+	background-position: -88px 184px;
+}
+.hypermarket-cloudpos-mobile {
+	background-position: -167px 184px;
+}
+.hypermarket-floor-mobile {
+	background-position: -239px 185px;
+}
+.hypermarket-product-mobile {
+	background-position: -17px 124px;
+}
+.hypermarket-miltibill-mobile {
+	background-position: -92px 124px;
+}
+.hypermarket-weight-mobile {
+	background-position: -168px 123px;
+}
+.hypermarket-crm-mobile {
+	background-position: -241px 125px;
+}
+.pharma-xs-icon {
+	background: url(../images/vertical-images/Pharma/pharma-sprite.png);
+	height: 60px;
+	width: 74px;
+	float: left;
+	margin-right: 15px;
+}
+.pharma-xs-whatsnow {
+	background-position: -16px 149px;
+}
+.pharma-xs-sellsmart {
+	background-position: -83px 149px;
+}
+.pharma-xs-weborder {
+	background-position: -164px 149px;
+}
+.pharma-xs-icon1 {
+	background-position: -12px 88px;
+}
+.pharma-xs-icon2 {
+	background-position: -89px 88px;
+}
+.pharma-xs-icon3 {
+	background-position: -162px 88px;
+}
+.pharma-xs-icon4 {
+	background-position: -240px 88px;
+}
+.electronics-xs-icon {
+	background: url(../images/vertical-images/Electronics/electronic-sprite.png);
+	height: 60px;
+	width: 74px;
+	float: left;
+	margin-right: 15px;
+}
+.electronics-xs-whatsnow {
+	background-position: -22px 140px;
+}
+.electronics-xs-cloud {
+	background-position: -95px 138px;
+}
+.electronics-xs-sellsmart {
+	background-position: -169px 140px;
+}
+.electronics-xs-weborder {
+	background-position: -244px 140px;
+}
+.electronics-xs-icon1 {
+	background-position: -22px 77px;
+}
+.electronics-xs-icon2 {
+	background-position: -95px 79px;
+}
+.electronics-xs-icon3 {
+	background-position: -172px 83px;
+}
+.electronics-xs-icon4 {
+	background-position: -243px 76px;
+}
+.apparel-icon-mobile {
+	background: url(../images/vertical-images/Apparel/apparel-sprite.png);
+	height: 60px;
+	width: 74px;
+	float: left;
+	margin-right: 15px;
+}
+.apparel-whatsnow-mobile {
+	background-position: -27px 147px;
+}
+.apparel-multi-mobile {
+	background-position: -99px 148px;
+}
+.apparel-alert-mobile {
+	background-position: -176px 146px;
+}
+.apparel-pda-mobile {
+	background-position: -25px 90px;
+}
+.apparel-inventory-mobile {
+	background-position: -99px 86px;
+}
+.apparel-barcode-mobile {
+	background-position: -176px 86px;
+}
+.apparel-formula-mobile {
+	background-position: -251px 88px;
+}
+.lifestyle-icon-mobile {
+	background: url(../images/vertical-images/Lifestyle/lifestyle-fashion-sprite.png);
+	height: 60px;
+	width: 74px;
+	float: left;
+	margin-right: 15px;
+}
+.lifestyle-whatsnow-mobile {
+	background-position: -21px 123px;
+}
+.lifestyle-cloud-mobile {
+	background-position: -94px 123px;
+}
+.lifestyle-toys-mobile {
+	background-position: -169px 123px;
+}
+.lifestyle-luggage-mobile {
+	background-position: -242px 123px;
+}
+.lifestyle-optical-mobile {
+	background-position: -21px 63px;
+}
+.lifestyle-home-mobile {
+	background-position: -94px 63px;
+}
+.lifestyle-music-mobile {
+	background-position: -169px 63px;
+}
+.lifestyle-jewel-mobile {
+	background-position: -243px 63px;
+}
+.specialized-icon-mobile {
+	background: url(../images/vertical-images/Specialized-retail/other-vertical-sprite.png);
+	height: 60px;
+	width: 74px;
+	float: left;
+	margin-right: 15px;
+}
+.specialized-whatsnow-mobile {
+	background-position: -24px 142px;
+}
+.specialized-sellsmart-mobile {
+	background-position: -93px 142px;
+}
+.specialized-mypulse-mobile {
+	background-position: -174px 142px;
+}
+.specialized-cloud-mobile {
+	background-position: -244px 142px;
+}
+.specialized-inventory-mobile {
+	background-position: -24px 82px;
+}
+.specialized-alert-mobile {
+	background-position: -93px 82px;
+}
+.specialized-spa-mobile {
+	background-position: -244px 82px;
+}
+.specialized-pet-mobile {
+	background-position: -171px 82px;
+}
+.restaurant-xs-icon {
+	background: url(../images/vertical-images/Restaurant-bar/restaurant-vertical-sprite.png);
+	height: 60px;
+	width: 74px;
+	float: left;
+	margin-right: 15px;
+}
+.restaurant-xs-whatsnow {
+	background-position: -18px 129px;
+}
+.restaurant-xs-servjoy {
+	background-position: -90px 129px;
+}
+.restaurant-xs-mypulse {
+	background-position: -167px 129px;
+}
+.restaurant-xs-icon1 {
+	background-position: -238px 129px;
+}
+.restaurant-xs-icon2 {
+	background-position: -16px 71px;
+}
+.restaurant-xs-icon3 {
+	background-position: -89px 71px;
+}
+.restaurant-xs-icon4 {
+	background-position: -165px 71px;
+}
+.qsr-xs-icon {
+	background: url(../images/vertical-images/QSR/qsr-vertical-sprite.png);
+	height: 60px;
+	width: 74px;
+	float: left;
+	margin-right: 15px;
+}
+.qsr-xs-whatsnow {
+	background-position: -23px 137px;
+}
+.qsr-xs-servquick {
+	background-position: -96px 137px;
+}
+.qsr-xs-mypulse {
+	background-position: -172px 135px;
+}
+.qsr-xs-icon1 {
+	background-position: -245px 135px;
+}
+.qsr-xs-icon2 {
+	background-position: -22px 75px;
+}
+.qsr-xs-icon3 {
+	background-position: -98px 75px;
+}
+.qsr-xs-icon4 {
+	background-position: -168px 75px;
+}
+.bakery-icon-mobile {
+	background: url(../images/vertical-images/Bakery/bakery-vertical-sprite.png);
+	height: 60px;
+	width: 74px;
+	float: left;
+	margin-right: 15px;
+}
+.bakery-whatsnow-mobile {
+	background-position: -10px 131px;
+}
+.bakery-servquick-mobile {
+	background-position: -83px 131px;
+}
+.bakery-mypulse-mobile {
+	background-position: -159px 131px;
+}
+.bakery-delivery-mobile {
+	background-position: -232px 131px;
+}
+.bakery-ingredients-mobile {
+	background-position: -11px 70px;
+}
+.bakery-margin-mobile {
+	background-position: -82px 70px;
+}
+.bakery-barcode-mobile {
+	background-position: -161px 69px;
+}
+.fcourt-icon-mobile {
+	background: url(../images/vertical-images/F-court/foodcourt-vertical-sprite.png);
+	height: 60px;
+	width: 74px;
+	float: left;
+	margin-right: 15px;
+}
+.fcourt-whatsnow-mobile {
+	background-position: -14px 134px;
+}
+.fcourt-servquick-mobile {
+	background-position: -87px 134px;
+}
+.fcourt-mypulse-mobile {
+	background-position: -161px 134px;
+}
+.fcourt-inventory-mobile {
+	background-position: -234px 133px;
+}
+.fcourt-combo-mobile {
+	background-position: -13px 73px;
+}
+.fcourt-item-mobile {
+	background-position: -87px 73px;
+}
+.fcourt-kitchen-mobile {
+	background-position: -162px 73px;
+}
+.ftruck-icon-mobile {
+	background: url(../images/vertical-images/F-Truck/foodtruck-vertical-sprite.png);
+	height: 60px;
+	width: 74px;
+	float: left;
+	margin-right: 15px;
+}
+.ftruck-whatsnow-mobile {
+	background-position: -15px 137px;
+}
+.ftruck-servquick-mobile {
+	background-position: -88px 137px;
+}
+.ftruck-mypulse-mobile {
+	background-position: -163px 137px;
+}
+.ftruck-bill-mobile {
+	background-position: -239px 139px;
+}
+.ftruck-combo-mobile {
+	background-position: -15px 77px;
+}
+.ftruck-item-mobile {
+	background-position: -87px 77px;
+}
+.ftruck-kot-mobile {
+	background-position: -162px 77px;
+}
+.defmcg-icon-mobile {
+	background: url(../images/vertical-images/FMCG/fmcg-packaged-vertical-sprite.png);
+	height: 60px;
+	width: 74px;
+	float: left;
+	margin-right: 15px;
+}
+.defmcg-whatsnow-mobile {
+	background-position: -15px 140px;
+}
+.defmcg-earnsmart-mobile {
+	background-position: -91px 140px;
+}
+.defmcg-insight-mobile {
+	background-position: -163px 140px;
+}
+.defmcg-inventory-mobile {
+	background-position: -240px 141px;
+}
+.defmcg-delivery-mobile {
+	background-position: -14px 80px;
+}
+.defmcg-offer-mobile {
+	background-position: -88px 80px;
+}
+.defmcg-weborder-mobile {
+	background-position: -162px 81px;
+}
+.depharma-icon-mobile {
+	background: url(../images/vertical-images/DE-pharma/de-pharma-vertical-sprite.png);
+	height: 60px;
+	width: 74px;
+	float: left;
+	margin-right: 15px;
+}
+.depharma-whatsnow-mobile {
+	background-position: -18px 136px;
+}
+.depharma-earnsmart-mobile {
+	background-position: -93px 136px;
+}
+.depharma-weborder-mobile {
+	background-position: -165px 137px;
+}
+.depharma-inventory-mobile {
+	background-position: -241px 137px;
+}
+.depharma-purchase-mobile {
+	background-position: -17px 76px;
+}
+.depharma-bill-mobile {
+	background-position: -92px 76px;
+}
+.depharma-multibill-mobile {
+	background-position: -166px 77px;
+}
+.sweet-xs-icon {
+	background: url(../images/vertical-images/Sweet/sweet-vertical-sprite.png);
+	height: 60px;
+	width: 74px;
+	float: left;
+	margin-right: 15px;
+}
+.sweet-xs-whatsnow {
+	background-position: -16px 138px;
+}
+.sweet-xs-servquick {
+	background-position: -88px 139px;
+}
+.sweet-xs-mypulse {
+	background-position: -162px 138px;
+}
+.sweet-xs-icon1 {
+	background-position: -235px 138px;
+}
+.sweet-xs-icon2 {
+	background-position: -12px 78px;
+}
+.sweet-xs-icon3 {
+	background-position: -88px 78px;
+}
+.sweet-xs-icon4 {
+	background-position: -158px 78px;
+}
+.ice-xs-icon {
+	background: url(../images/vertical-images/icecream/ice-cream-vertical-sprite.png);
+	height: 60px;
+	width: 74px;
+	float: left;
+	margin-right: 15px;
+}
+.ice-xs-whatsnow {
+	background-position: -23px 138px;
+}
+.ice-xs-servquick {
+	background-position: -94px 139px;
+}
+.ice-xs-mypulse {
+	background-position: -168px 138px;
+}
+.ice-xs-icon1 {
+	background-position: -245px 139px;
+}
+.ice-xs-icon2 {
+	background-position: -22px 79px;
+}
+.ice-xs-icon3 {
+	background-position: -98px 79px;
+}
+.ice-xs-icon4 {
+	background-position: -168px 79px;
+}
+.spa-salon-icon {
+	height: 55px;
+    width: 65px;
+	float: left;
+    margin-right: 15px;
+}
+.spa-salon-icon1 {
+	background-position: -90px -370px;
+}
+.spa-salon-icon2 {
+	background-position: -163px -367px;
+}
+.spa-salon-icon3 {
+	background-position: -238px -367px;
+}
+.spa-salon-icon4 {
+    background-position: -16px -430px;
+}
+.spa-salon-icon5 {
+	background-position: -18px -368px;
+}
+.spa-salon-icon6 {
+	background-position: -91px -430px;
+}
+.spa-salon-icon7 {
+	background-position: -164px -430px;
+}
+.spa-salon-icon8 {
+	background-position: -238px -430px;
+}
+}
+@media(max-width:525px){
+	.spa-testimonial-sec{    background-position: -242px 0px;}
+	.gft_verticalh1{font-size: 25px;line-height: 1.2;}
+	.gft_verticalh2{font-size: 16px;}
+	.vertical_ban_primary{font-size: 14px;}
+
+}
